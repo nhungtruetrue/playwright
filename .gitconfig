@@ -1,0 +1,5 @@
+[credential "https://git.rabiloo.net"]
+	provider = generic
+[user]
+	name = NhungDTH
+	email = nhungdth@rabiloo.com
