@@ -8,4 +8,22 @@ test.describe("Auth-login",()=>{
 
         await expect(page).toHaveURL("https://rabiloo.stg2.weekly.vn/");
     })
+    test("login fail", async ({page}) => {
+        const loginPage = new LoginPage(page);
+        await loginPage.goto();
+        await loginPage.login("nhungdth@rabiloo.com", "a1234568X");
+        await expect(loginPage.error_mess).toBeVisible();
+    })
+    test("validate email", async ({page}) => {
+        const loginPage = new LoginPage(page);
+        await loginPage.goto();
+        await loginPage.login("nhung", "a1234568X");
+        await expect(loginPage.error_email).toBeVisible();
+    })
+    test("validate password", async ({page}) => {
+        const loginPage = new LoginPage(page);
+        await loginPage.goto();
+        await loginPage.login("nhungdth@rabiloo.com", "a1");
+        await expect(loginPage.error_password).toBeVisible();
+    })
 })
