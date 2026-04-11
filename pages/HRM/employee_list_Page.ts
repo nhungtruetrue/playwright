@@ -14,10 +14,11 @@ export class employee_list_Page{
 
     constructor (page : Page){
         this.page = page;
-        this.btn_create = page.locator('button',{hasText:/Thêm mới/i});
-        this.btn_export = page.locator('button',{hasText:/Xuất excel/i});
-        this.btn_exportAll = page.locator('button',{hasText:/Xuất tất cả/i});
-        this.btn_import = page.locator('button',{hasText:/Nhập excel/i});
+        this.btn_create = page.getByRole('button', { name: /Thêm mới/i });
+        this.btn_export = page.getByRole('button',{name:/Xuất excel/i});
+        this.btn_exportAll = page.getByRole('button',{name:/Xuất tất cả/i});
+        this.btn_import = page.getByRole('button',{name:/Nhập excel/i});
+
         this.tab_working = page.locator('div',{hasText:/Đang làm/i});
         this.tab_temporary_off_work = page.locator('div',{hasText:/Tạm nghỉ/i});
         this.tab_quit = page.locator('div',{hasText:/Nghỉ việc/i});
@@ -25,7 +26,7 @@ export class employee_list_Page{
         this.btn_Cancel = page.locator('button',{hasText:/Hủy/i});
         }
     async goto(){
-        await this.page.goto("/hrm/employee");
+        await this.page.goto("/hrm");
     }
 }
 

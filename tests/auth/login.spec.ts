@@ -6,7 +6,7 @@ test.describe("Auth-login",()=>{
         await loginPage.goto();
         await loginPage.login("nhungdth@rabiloo.com", "a12345678X");
 
-        await expect(page).toHaveURL("https://rabiloo.stg2.weekly.vn/");
+        await expect(page).toHaveURL("https://abc.staging.weekly.vn/");
     })
     test("login fail", async ({page}) => {
         const loginPage = new LoginPage(page);
