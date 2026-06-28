@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "i18n_redirected",
+      "value": "vi",
+      "domain": "abc.staging.weekly.vn",
+      "path": "/",
+      "expires": 1808800987,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth.strategy",
+      "value": "local",
+      "domain": "abc.staging.weekly.vn",
+      "path": "/",
+      "expires": 1779856992,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLID",
+      "value": "c09f17f3864a4e4a8cb27f303877c5da.20260427.20270427",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1808800993.019358,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "T",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "16C29A0A4DAC6BAF23BD8D4249AC651B",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1810960993.37154,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "mtwxqy%5E2%5Eg5k%5E0%5E2308",
+      "domain": ".weekly.vn",
+      "path": "/",
+      "expires": 1808800993,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth._token.local",
+      "value": "Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYXV0aCIsImlkIjozMDEsImNvbXBhbnlfaWQiOjQsImVtYWlsIjoibmh1bmdkdGhAcmFiaWxvby5jb20iLCJpYXQiOjE3NzcyNjQ5ODAsImV4cCI6MTc3OTg1Njk4MH0.vdWKIcEE4Soaw5g1QckYaK-WtUMk7l-hVwAIL3-MWy8",
+      "domain": "abc.staging.weekly.vn",
+      "path": "/",
+      "expires": 1779856993,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "1DA913F9B9466C8B018804B1B8546DF3",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1810960993.682956,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1777869793.683077,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "1DA913F9B9466C8B018804B1B8546DF3",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1810960993.68314,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://abc.staging.weekly.vn",
+      "localStorage": [
+        {
+          "name": "client-id",
+          "value": "1777264992856-968066096406"
+        }
+      ]
+    }
+  ]
+}
