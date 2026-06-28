@@ -27,6 +27,7 @@ export class create_employee_Page{
     async goto(){
         await this.page.goto("/hrm/employee/create");
     }
+
     async create_employee(employee: Employee){
         await this.input_name.fill(employee.name);
         await this.input_id.fill(employee.id);
@@ -37,6 +38,9 @@ export class create_employee_Page{
         await this.input_startDate.fill(employee.startDate);
         await this.input_status.fill(employee.status);
         await this.button_Save.click();
+    }
+     getError(message:string){
+        return this.page.getByText(message);
     }
 
 }
